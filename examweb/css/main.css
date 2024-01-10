@@ -1,0 +1,30 @@
+header{
+    background-color: grey;
+    text-align: center;
+}
+.logo{
+    max-width: 10rem;
+}
+.footer {
+    background-color: grey;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.moscow{
+    max-width: 65%;
+}
+.companytext{
+    font-size: 1.2rem;
+}
+.btn-guides.btn-outline-primary {
+    color: #FF00FF;
+    background-color: rgb(255, 255, 255); 
+    border-color:#FF00FF; 
+}
+  
+.btn-guides.btn-outline-primary:hover {
+    color: rgb(255, 255, 255);
+    background-color: #8B00FF; 
+    border-color: #8B00FF; 
+}

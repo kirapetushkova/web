@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body style="background-color:rgb(91, 143, 241);">
+    <!--Шапка сайта-->
+    <header>
+        <h1>Личный кабинет</h1>
+        <img style='max-width: 10%;'src="img/logo.png" alt="Логотип" class="logo">
+        <nav>
+            <a style='color: #333;'href="index.html" class ='btnlk'>На главную страницу</a>
+        </nav>
+    </header>
+    <!--Область всплывающих уведомлений-->
+    <section>
+        <div class="container">
+          <div class="alert alert-success" role="alert">
+            Уведомление 1
+          </div>
+          <div class="alert alert-info" role="alert">
+            Уведомление 2
+          </div>
+        </div>
+    </section>
+    <!--Таблица-->
+    <section>
+        <table class="table table-hover table-bordered text-center">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Название маршрута</th>
+                    <th>Дата экскурсии</th>
+                    <th>Итоговая стоимость</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Заявка1</td>
+                    <td>Название маршрута</td>
+                    <td>Дата</td>
+                    <td>стоимость</td>
+                    <td>
+                        <button class="details">Подробнее</button>
+                        <button class="edit">Редактировать</button>
+                        <button class="delete">Удалить</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+  
+    <!--Модальное окно-->
+    <div id="myModal" class="modal">
+    </div>
+    <script src="js/script.js"></script>
+    <section>
+        <footer style="background-color: grey !important;
+        color: white;
+        padding: 20px 0;">
+            <div class="row">
+                <div class="col">
+                Петушкова Кира
+                </div>
+                <div class="col">
+                +79772753527
+                </div>
+                <div class="col">
+                    <a class="btn contact-me-btn" href="mailto:kira0987123456@gmail.com">Написать на почту</a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    
+</body>
